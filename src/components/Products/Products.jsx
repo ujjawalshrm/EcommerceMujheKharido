@@ -52,8 +52,7 @@ const Products = () => {
   return (
     <div className="mt-14 mb-12">
       <div className="container">
-        {/* Header section */}
-        <div className="text-center mb-10 max-w-[600px] mx-auto">
+S        <div className="text-center mb-10 max-w-[600px] mx-auto">
           <p data-aos="fade-up" className="text-sm text-primary">
             Top Selling Products for you
           </p>
@@ -65,10 +64,8 @@ const Products = () => {
             asperiores modi Sit asperiores modi
           </p>
         </div>
-        {/* Body section */}
         <div>
           <div className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 place-items-center gap-5">
-            {/* card section */}
             {ProductsData.map((data) => (
               <div
                 data-aos="fade-up"
@@ -92,7 +89,6 @@ const Products = () => {
               </div>
             ))}
           </div>
-          {/* view all button */}
           <div className="flex justify-center">
             <button className="text-center mt-10 cursor-pointer bg-primary text-white py-1 px-5 rounded-md">
               View All Button
